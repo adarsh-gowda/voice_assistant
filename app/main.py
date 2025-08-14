@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import AsyncIterable
 
 from dotenv import load_dotenv
-from fastapi import FastAPI, Query, WebSocket
+from fastapi import FastAPI, Query, WebSocket   
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from google.adk.agents import LiveRequestQueue
@@ -52,7 +52,7 @@ def start_agent_session(session_id, is_audio=False):
     speech_config = types.SpeechConfig(
         voice_config=types.VoiceConfig(
             # Puck, Charon, Kore, Fenrir, Aoede, Leda, Orus, and Zephyr
-            prebuilt_voice_config=types.PrebuiltVoiceConfig(voice_name="Puck")
+            prebuilt_voice_config=types.PrebuiltVoiceConfig(voice_name="Kore")
         )
     )
 
