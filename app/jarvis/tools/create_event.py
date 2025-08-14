@@ -17,8 +17,8 @@ def create_event(
 
     Args:
         summary (str): Event title/summary
-        start_time (str): Start time (e.g., "2023-12-31 14:00")
-        end_time (str): End time (e.g., "2023-12-31 15:00")
+        start_time (str): Start time (e.g., "2024-12-31 14:00")
+        end_time (str): End time (e.g., "2024-12-31 15:00")
 
     Returns:
         dict: Information about the created event or error details
