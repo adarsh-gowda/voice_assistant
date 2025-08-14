@@ -5,7 +5,7 @@ List events tool for Google Calendar integration.
 import datetime
 
 from .calendar_utils import format_event_time, get_calendar_service
-
+    
 
 def list_events(
     start_date: str,
